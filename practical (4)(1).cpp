@@ -17,12 +17,12 @@ int main() {
     cout<<"enter second number :";
     cin>>num2;
 
-    cout << "Before sortinging: " << endl;
+    cout << "Before sort: " << endl;
     cout << num1 << " " << num2 << endl;
 
     sort(num1, num2);
 
-    cout<< "After sortinging : " << endl;
+    cout<< "After sort : " << endl;
     cout << num1 << " " << num2 << endl;
 
     return 0;
